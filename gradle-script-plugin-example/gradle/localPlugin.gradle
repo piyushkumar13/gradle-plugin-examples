@@ -1,0 +1,13 @@
+/* For some reason, kotlin local scripts are not getting recognized properly.
+* Its not showing autocomplete option as well as showing error for dependencies {} block as well. */
+logger.quiet("========= Plugin from local file ===========")
+
+tasks.register("hello") {
+    doLast {
+        println("Hello world!")
+    }
+}
+
+dependencies {
+    implementation("org.apache.commons:commons-lang3:3.17.0")
+}
