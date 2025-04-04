@@ -1,7 +1,7 @@
 plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "0.8.0"
 }
-rootProject.name = "gradle-precompiled-plugin-example"
+rootProject.name = "gradle-precompiled-binary-plugin-example"
 //include("gradle-script-plugin-example")
 //include("gradle-precompled-plugin-example")
 //include("gradle-convention-precompiled-plugin")
