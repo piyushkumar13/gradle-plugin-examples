@@ -1,4 +1,4 @@
-package org.example;
+package com.piyush.example.plugins;
 
 /**
  * @author Piyush Kumar.

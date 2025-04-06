@@ -5,7 +5,8 @@ plugins {
        https://docs.gradle.org/current/userguide/java_gradle_plugin.html#java_gradle_plugin
        https://docs.gradle.org/current/userguide/custom_plugins.html#sec:custom_plugins_standalone_project
        It will add the META-INF and plugin properties file under it for the plugin details specified in gradlePlugin{..} below
-       and also, java-gradle-plugin provides some other features as mentioned in above link. */
+       and also, java-gradle-plugin provides plugin apis to help in development of plugins and
+       some other features as mentioned in above link. */
     id("java-gradle-plugin")
 }
 
